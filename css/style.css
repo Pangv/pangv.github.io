@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: 
+}
+
+
+#top-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 50px;
+}
+
+header ul li a {
+    text-decoration: none;
+    background-color: darkorange;
+    margin: 5%;
+    padding: 0.5em;
+}
+a {
+    color: black;
+}
+a:hover {
+    background-color: orange;
+}
+header ul li {
+    display: inline;
+}
+#title {
+    margin-top: 50px;
+}
