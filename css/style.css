@@ -40,5 +40,6 @@ header ul li {
 }
 
 img {
+	max-width: 100%;
 	border: 1px dotted blue;
 }
