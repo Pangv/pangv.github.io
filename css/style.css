@@ -3,28 +3,31 @@
 }
 
 html {
-    background-color: 
+    background-color: #E8E8E8;
 }
 
 
 #top-menu {
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     left: 0;
-    margin-bottom: 50px;
+    margin-bottom: 12px;
 }
 header {
-	padding: 0.5em;
-	background-color: beige;
+	padding: 1em;
+	background-color: #F1FFF1;
+	border-radius: 50px;
+	border: 1px solid #33CCFF;
 }
 
-header ul li a {
+header a {
     text-decoration: none;
     background-color: limegreen;
     margin: 5%;
     padding: 0.5em;
 	border-radius: 2px;
+	border: 1px solid #33CCFF;
 }
 a {
     color: white;
@@ -32,14 +35,21 @@ a {
 a:hover {
     background-color: cadetblue;
 }
-header ul li {
-    display: inline;
-}
+
 #title {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 img {
 	max-width: 100%;
-	border: 1px dotted blue;
+	border: 1px solid #33CCFF;
+}
+@media (max-width: 768px) {
+	header {
+		width: 100% !important;
+		height: 215px;
+	}
+	a{
+		margin-right:  100%; !important;
+	}
 }
