@@ -14,22 +14,31 @@ html {
     left: 0;
     margin-bottom: 50px;
 }
+header {
+	padding: 0.5em;
+	background-color: beige;
+}
 
 header ul li a {
     text-decoration: none;
-    background-color: darkorange;
+    background-color: limegreen;
     margin: 5%;
     padding: 0.5em;
+	border-radius: 2px;
 }
 a {
-    color: black;
+    color: white;
 }
 a:hover {
-    background-color: orange;
+    background-color: cadetblue;
 }
 header ul li {
     display: inline;
 }
 #title {
     margin-top: 50px;
+}
+
+img {
+	border: 1px dotted blue;
 }
