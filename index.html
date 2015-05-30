@@ -1,63 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>gleitzeitsoldaten.de</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>gleitzeitsoldaten.de</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-   <div class="row" id="top-menu">
-		<header>
-			<div class="col three"><a href="index.html">Home</a>
+
+<body ng-app="">
+	<div class="container">
+		<div class="row" id="top-menu">
+			<header>
+				<div class="col three"><a href="index.html">Home</a>
+				</div>
+				<div class="col three"><a href="datenschutz.html">Datenschutz</a>
+				</div>
+				<div class="col three"><a href="disclaimer.html">Disclaimer</a>
+				</div>
+				<div class="col three"><a href="impressum.html">Impressum</a>
+				</div>
+			</header>
+		</div>
+		<div class="row">
+			<div class="col twelve">
+
+				<h1>EATLIST vom<span id="tag"></span></h1>
+				<script>
+					var d = new Date();
+					var month = ""
+					if (d.getMonth() == 0) {
+						month = "Januar";
+					} else if (d.getMonth() == 1) {
+						month = "Februar";
+					} else if (d.getMonth() == 2) {
+						month = "März";
+					} else if (d.getMonth() == 3) {
+						month = "April";
+					} else if (d.getMonth() == 4) {
+						month = "Mai";
+					} else if (d.getMonth() == 5) {
+						month = "Juni";
+					} else if (d.getMonth() == 6) {
+						month = "Junli";
+					} else if (d.getMonth() == 7) {
+						month = "August";
+					} else if (d.getMonth() == 8) {
+						month = "September";
+					} else if (d.getMonth() == 9) {
+						month = "Oktober";
+					} else if (d.getMonth() == 10) {
+						month = "November";
+					} else if (d.getMonth() == 11) {
+						month = "Dezember";
+					}
+
+					document.getElementById('tag').innerHTML = " " + d.getDate() + ". " + month + " " + d.getFullYear();
+				</script>
 			</div>
-			<div class="col three"><a href="datenschutz.html">Datenschutz</a>
+		</div>
+		<div class="calendar">
+			<div class="row">
+				<div class="six"></div>
+				<div class="six"></div>
 			</div>
-			<div class="col three"><a href="disclaimer.html">Disclaimer</a>
+		</div>
+		<div class="row">
+
+			<div class="col three">
+				<div class="color">
+					<label>Vorname</label>
+					<input type="text" name="" id="" ng-model="vorname">
+				</div>
 			</div>
-			<div class="col three"><a href="impressum.html">Impressum</a>
+			<div class="col three">
+				<div class="color">
+					<label>Vorspeise</label>
+					<input type="text" name="" id="" ng-model="vorspeise">
+				</div>
 			</div>
-		</header>
+			<div class="col three">
+				<div class="color">
+					<label>Hauptgericht</label>
+					<input type="text" name="" id="" ng-model="hauptgericht">
+				</div>
+			</div>
+			<div class="col three">
+				<div class="color">
+
+					<label>Nachspeise</label>
+					<br>
+					<input type="radio" name="nachtisch" ng-model="nachtisch" value="Eis" id="eis">
+					<label for="">Eis</label>
+					<br>
+					<input type="radio" name="nachtisch" ng-model="nachtisch" value="Pudding" id="pudding">
+					<label for="">Pudding</label>
+					<br>
+					<input type="radio" name="nachtisch" ng-model="nachtisch" value="Gebäck" id="gebaeck">
+					<label for="">Gebäck</label>
+					<br>
+					<input type="radio" name="nachtisch" ng-model="nachtisch" value="Death by Chocolate" id="dbc">
+					<label for="">Death by Chocolate</label>
+					<br>
+					<input type="radio" name="nachtisch" ng-model="nachtisch" id="extra" value="">
+					<label for="">Nichts davon</label>
+					<br>
+
+					<input type="text" placeholder="Bitte angeben" id="extra-input" ng-model="extra" disabled>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<form>
+				<div class="col four">
+					<div class="color">
+						<div class="">
+							<textarea id="ergebnis" readonly>
+							Wahl von {{vorname}}:&#013;&#010;Vorspeise: {{vorspeise}} &#013;&#010;Hauptgericht: {{hauptgericht}}&#013;&#010;Nachspeise: {{nachtisch}} {{extra}}
+							</textarea>
+						</div>
+					</div>
+				</div>
+				<div class="col three">
+					<div class="color">
+						<label>Alles ausgefüllt?
+							<br>Dann Passwort eingeben und abschicken.</label>
+						<input type="password" pattern="" placeholder="Passwort">
+						<br>
+						<input type="button" value="Abschicken" disabled>
+					</div>
+				</div>
+				<div class="col five">
+					<div class="color" style="color: #33691E">
+						Die Übertragung erfolgt über einen freien Maildienst an eine Funktionsadresse, die Übertragung kann Sicherheitslücken aufweisen. Die Nutzung dieses Services ist daher, freiwillig und für etwaige Schäden kann keine Verantwortung durch den Betreiber übernommen werden. Sollten Sie diesen Service nutzen und kein Nachbar der Urhebers sein, sollten Sie diesen Service nicht nutzen.
+					</div>
+				</div>
+			</form>
+		</div>
+		
 	</div>
-    <div class="row" id="title">
-    <div class="col twelve">
-        <h1>Wilkommen auf dieser Testseite</h1>
-    </div> 
-    </div>
-    <div class="row">
-        <div class="col six">
-        	<p>Die folgenden Bilder zeigen dir einen Entwurf für eine mögliche Webanwendung zur Verwaltung von 
-        	Mustern. Es handelt sich dabei nur um einen Vorschlag und ist keineswegs als fertiges Produkt zu betrachteten...<br>
-        	Da hinter der Anwendung keine Funktionen programmiert sind...</p>
-        </div>
-        <div class="col six"></div>
-    </div>
-    <div class="row">
-    	<div class="col twelve">
-    		<img src="img/ubersicht.png">
-    		<p>Die <strong>Übersicht</strong> zeigt zwei Tabellen die alle ausgeliehenen Musterstücke auf einen Blick darstellt.</p>
-    	</div>
-    </div>
-    <div class="row">
-    	<div class="col twelve">
-    		<img src="img/int.png">
-    		<p>Diese Ansicht <strong></strong>zeigt eine Tabelle die alle vorhandenen Musterstücke auf einen Blick darstellt.<br>
-    		Sowie die Möglichkeit bietet vorhandene zu ändern und neue hinzuzufügen.</p>
-    	</div>
-    </div>
-    <div class="row">
-    	<div class="col twelve">
-    		<img src="img/ext.png">
-    		<p>Diese Ansicht <strong></strong>zeigt eine Tabelle die alle vorhandenen Musterstücke auf einen Blick darstellt.<br>
-    		Sowie die Möglichkeit bietet vorhandene zu ändern und neue hinzuzufügen.</p>
-    	</div>
-    </div>
-    <div class="row">
-    	<div class="col twelve">
-    		<img src="img/legende.png">
-    		<p>Zeigt die möglichen Feldbezeichnungen</p>
-    	</div>
-    </div>
+	<div class="row">
+		<div class="col twelve">
+			<a href="test.html">Testseite zum Gucken</a>
+		</div>
+	</div>
+
+	<!-- -->
+	<script>
+		if (document.getElementById('extra').checked) {
+			document.getElementById('extra-input').removeAttribute('disabled');
+		} else if (document.getElementById('extra-input').hasAttribute('disabled')) {
+			document.getElementById('extra-input').checked = true;
+		}
+	</script>
 </body>
+
 </html>
