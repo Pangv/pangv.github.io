@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/game.css">
 </head>
 
 <body ng-app="">
@@ -119,7 +120,7 @@
 					<div class="color">
 						<div class="">
 							<textarea id="ergebnis" readonly>
-							Wahl von {{vorname}}:&#013;&#010;Vorspeise: {{vorspeise}} &#013;&#010;Hauptgericht: {{hauptgericht}}&#013;&#010;Nachspeise: {{nachtisch}} {{extra}}
+								Wahl von {{vorname}}:&#013;&#010;Vorspeise: {{vorspeise}} &#013;&#010;Hauptgericht: {{hauptgericht}}&#013;&#010;Nachspeise: {{nachtisch}} {{extra}}
 							</textarea>
 						</div>
 					</div>
@@ -134,13 +135,48 @@
 					</div>
 				</div>
 				<div class="col five">
-					<div class="color" style="color: #33691E">
+					<div class="color" style="color: #33691E; height: 100%;" id="">
 						Die Übertragung erfolgt über einen freien Maildienst an eine Funktionsadresse, die Übertragung kann Sicherheitslücken aufweisen. Die Nutzung dieses Services ist daher, freiwillig und für etwaige Schäden kann keine Verantwortung durch den Betreiber übernommen werden. Sollten Sie diesen Service nutzen und kein Nachbar der Urhebers sein, sollten Sie diesen Service nicht nutzen.
 					</div>
 				</div>
 			</form>
 		</div>
-		
+
+
+	</div>
+	<div class="container2">
+		<div class="" style="border-bottom: 1px solid #33691E; width: 100%; margin: 0; padding: 0;"></div>
+		<div class="row">
+			<div class="col twelve">
+				<h2>3 Gewinnt</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col six">
+				
+			</div>
+			<div class="col six">
+				<label>Best of three</label>
+				<table id="spielplan">
+					<thead>
+						<tr>
+							<th>Spielername</th>
+							<th>Punkte</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<span></span>
+							</td>
+							<td>
+								<span></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
 	<div class="row">
 		<div class="col twelve">

@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
 	background-color: #FAFAFA;
 }
@@ -10,16 +11,17 @@ body {
 		width: 100% !important;
 		height: 215px;
 	}
-	a{
-		margin-right:  100%; !important;
+	a {
+		margin-right: 100%;
+		!important;
 	}
-	
 	.container {
 		min-height: 2000px;
 		overflow-y: hidden;
 		overflow-x: hidden;
 	}
 }
+
 #ergebnis {
 	max-height: 130px;
 	max-width: 287px;
@@ -33,7 +35,12 @@ body {
 	background-color: #AED581;
 }
 
-#top-menu, a {
+.container input {
+	max-width: 100%;
+}
+
+#top-menu,
+a {
 	background-color: #DCEDC8;
 	text-decoration: none;
 	color: black;
@@ -45,7 +52,6 @@ a:hover {
 	color: #33691E;
 }
 
-
 .color {
 	background-color: #558B2F;
 	border-width: 2px;
@@ -56,4 +62,10 @@ a:hover {
 	margin: 5px;
 	padding: 5px;
 	box-shadow: 10px 10px 10px #689F38;
+}
+
+.container2 {
+	width: 100%;
+	min-height: 300px;
+	background-color: #4DD0E1;
 }
