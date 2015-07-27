@@ -1,0 +1,9 @@
+
+#spielplan *{
+	border: 1px dashed darkblue;
+	margin: 5px;
+}
+
+#spielplan *:not(span){
+	padding: 10px;
+}
