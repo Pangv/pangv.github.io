@@ -1,62 +1,108 @@
-<!doctype html>
-<html class="no-js" lang="en" ng-app="app">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <title>Silvester</title>
-    <link rel="stylesheet" href="css/foundation-icons.css" />
-    <link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/timer.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <title>Minimum Bootstrap HTML Skeleton</title>
+    <!--  -->
+    <style>
+        img {
+            border: 1px solid grey;
+            max-width: 100%;
+        }
+    </style>
 
-
-    <!-- Responsive Tables -->
-    <link type="text/css" media="screen" rel="stylesheet" href="css/responsive-tables.css" />
-
-    <!-- Angular -->
-    <script src="scripts/angular.js"></script>
 </head>
 
 <body>
-    <div class="row">
-        <div class="large-12 columns">
-            <h1>Silvester in H </h1>
+
+    <div class="page-header">
+        <h1>Kurzanleitung Android Studio<small> Debugging</small></h1>
+    </div>
 
 
-            <div class="row" ng-include="'countdown.html'">
+    <div class="container">
+        <div class="row">
 
-            </div>
+            <ol class="list-group">
+                <li class="list-group-item">
+                    <input type="checkbox"> Entwicklermodus aktivieren
+                </li>
+                <li class="list-group-item">Treiber installieren
+                    <ul>
+                        <li>
+                            <input type="checkbox">OnePlus Treiber vom Device installieren</li>
+                        <li>
+                            <input type="checkbox">Samsung Universal USB Treiber installieren (evtl. überflüssig) <a href="http://developer.samsung.com/technical-doc/view.do?v=T000000117">Download</a></li>
+                    </ul>
+
+                </li>
+                <li class="list-group-item">Debugging in der Anwendung aktivieren
+                    <ul>
+                        <li>
+                            <input type="checkbox">Manifest anpassen
+                            <img src="img/debugging1.PNG" alt=""></li>
+                        <li>
+                            <input type="checkbox">Gradle anpassen
+                            <img src="img/debugging2.PNG" alt="">
+                        </li>
+
+                    </ul>
+
+                </li>
+
+
+            </ol>
+
+
 
         </div>
     </div>
-    <span style="display: block; height: 57vh; "></span>
-    <div class="row">
-        <div class="small-12 medium-12 large-12 columns">
-            <ul>
-                <li><a href="datenschutz.html">Datenschutz</a></li>
-                <li><a href="disclaimer.html">Disclaimer</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
+    <div class="page-header">
+        <h1>Android Studio konfigurieren<small> Bring den Scheiß zum laufen</small></h1>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <ul class="list-group">
+
+                <li class="list-group-item">
+                    <input type="checkbox"> Einstellungen anpassen oder importieren
+                    <a href="img/settings.jar" download>Download: settings.jar</a>
+                </li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
             </ul>
+
         </div>
     </div>
 
 
-    <script src="scripts/app.js"></script>
-    <script src="scripts/modules/cocktails.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
-    <script type="text/javascript" src="scripts/responsive-tables.js"></script>
+    <div class="container">
+        <div class="row">
+            <ul class="list-group">
+                <li class="list-group-item">Item 1</li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <script>
-        $(document).foundation();
     </script>
-
-
-
 </body>
 
 </html>
