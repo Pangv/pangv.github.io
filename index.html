@@ -9,47 +9,71 @@
     <title>Minimum Bootstrap HTML Skeleton</title>
     <!--  -->
     <style>
-        img {
-            border: 1px solid grey;
+        .min {
+           
+            max-width: 500px;
+            margin-left: 1%;
+        }
+        
+        .max {
             max-width: 100%;
+        }
+        
+        .max#img02 {
+            margin-left: 10px;
+        }
+        
+        .min#img02 {
+            margin-left: 21px;
         }
     </style>
 
 </head>
 
 <body>
-    
+
     <div class="container">
-        
-    <div class="page-header">
-        <h1>Kurzanleitung Android Studio<small> Debugging</small></h1>
-    </div>
+
+        <div class="page-header">
+            <h1>Kurzanleitung Android Studio<small> Debugging</small></h1>
+        </div>
 
 
-    
+
         <div class="row">
 
             <ol class="list-group">
                 <li class="list-group-item">
-                    <input type="checkbox"> Entwicklermodus aktivieren
+                    <label>
+                        <input type="checkbox"> Entwicklermodus aktivieren
+                    </label>
                 </li>
                 <li class="list-group-item">Treiber installieren
                     <ul>
                         <li>
-                            <input type="checkbox">OnePlus Treiber vom Device installieren</li>
+                            <label>
+                                <input type="checkbox">OnePlus Treiber vom Device installieren
+                            </label>
+                        </li>
                         <li>
-                            <input type="checkbox">Samsung Universal USB Treiber installieren (evtl. überflüssig) <a href="http://developer.samsung.com/technical-doc/view.do?v=T000000117">Download</a></li>
+                            <label>
+                                <input type="checkbox">Samsung Universal USB Treiber installieren (evtl. überflüssig)
+                                <a href="http://developer.samsung.com/technical-doc/view.do?v=T000000117">Download</a>
+                            </label>
+                        </li>
                     </ul>
 
                 </li>
                 <li class="list-group-item">Debugging in der Anwendung aktivieren
                     <ul>
                         <li>
-                            <input type="checkbox">Manifest anpassen
-                            <img src="img/debugging1.PNG" alt=""></li>
+                            <label>
+                                <input type="checkbox"> Manifest anpassen</label>
+                            <img class="min" id="img01" src="img/debugging1.PNG" alt=""></li>
                         <li>
-                            <input type="checkbox">Gradle anpassen
-                            <img src="img/debugging2.PNG" alt="">
+                            <label>
+                                <input type="checkbox"> Gradle anpassen</label>
+                            <img class="min" id="img02" src="img/debugging2.PNG" alt="">
                         </li>
 
                     </ul>
@@ -63,9 +87,9 @@
 
         </div>
 
-    <div class="page-header">
-        <h1>Android Studio konfigurieren<small> Bring den Scheiß zum laufen</small></h1>
-    </div>
+        <div class="page-header">
+            <h1>Android Studio konfigurieren<small> Bring den Scheiß zum laufen</small></h1>
+        </div>
 
 
 
@@ -75,8 +99,11 @@
             <ul class="list-group">
 
                 <li class="list-group-item">
-                    <input type="checkbox"> Einstellungen anpassen oder importieren
-                    <a href="img/settings.jar" download>Download: settings.jar</a>
+
+                    <label>
+                        <input type="checkbox"> Einstellungen anpassen oder importieren
+                        <a href="img/settings.jar" download>Download: settings.jar</a>
+                    </label>
                 </li>
                 <li class="list-group-item">Item 2</li>
                 <li class="list-group-item">Item 3</li>
@@ -89,15 +116,36 @@
 
         <div class="row">
             <ul class="list-group">
-                <li class="list-group-item">Item 1</li>
-                <li class="list-group-item">Item 2</li>
-                <li class="list-group-item">Item 3</li>
+                <li class="list-group-item"></li>
+
             </ul>
 
         </div>
     </div>
 
 
+    <script>
+        var toggle = function () {
+            var ele1 = document.getElementById('img01');
+            var ele2 = document.getElementById('img02');
+            ele1.onclick = function () {
+                if (ele1.className === "max") {
+                    ele1.className = "min";
+                } else
+                    ele1.className = "max";
+            }
+
+            ele2.onclick = function () {
+                if (ele2.className === "max") {
+                    ele2.className = "min";
+                } else
+                    ele2.className = "max";
+            }
+
+        }
+
+        toggle();
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
