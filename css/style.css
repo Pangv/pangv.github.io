@@ -1,0 +1,81 @@
+* {
+    font-family: 'Calibri';
+    color: black;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, black, #9d0000, #80007E, #f25400, orange, white);
+    min-width: 320px !important;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.whitebox {
+    margin-top: 100px;
+    min-height: 200px;
+    padding: 10px 5px 5px 0px;
+    background-color: white;
+}
+
+td {
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+}
+
+.col-sm-4 > img {
+    max-width: 100%;
+}
+
+.well-sm {
+    background-color: white;
+    border-radius: 0px;
+    margin: 2px;
+    text-align: center;
+    transition: 2s;
+}
+
+.well-sm:hover {
+    background-color: #c4c4c4;
+    border: gray solid 1px;
+    transition: 2s;
+}
+
+#logo {
+    max-width: 80%;
+}
+
+
+#images {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .whitebox {
+        height: 400px;
+    }
+    .images {
+        flex: wrap;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .whitebox {
+        height: 250px;
+    }
+    .images {
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 80%;
+    }
+}
