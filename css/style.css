@@ -64,7 +64,7 @@ td {
         height: 400px;
     }
     .images {
-        flex: wrap;
+        flex-wrap: wrap;
         
     }
 }
