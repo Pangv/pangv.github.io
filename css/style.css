@@ -20,28 +20,40 @@ a {
     text-decoration: underline;
 }
 
-.whitebox {
+.whitebox_top {
     margin-top: 100px;
+    margin-bottom: 20px;
     min-height: 200px;
     padding: 10px 5px 5px 0px;
     background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 5px;
+}
+
+.whitebox_btm {
+    background-color: white;
+    margin-top: 20px;
+    min-height: 200px;
+    padding-bottom: 40px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: space-around;
 }
 
 td {
     padding-bottom: 10px !important;
-    padding-right: 10px !important;
-}
-
-.col-sm-4 > img {
-    max-width: 100%;
+    padding-right: 25px !important;
 }
 
 .well-sm {
     background-color: white;
     border-radius: 0px;
-    margin: 2px;
+   
     text-align: center;
     transition: 2s;
+    
+    margin-bottom: 0px;
 }
 
 .well-sm:hover {
@@ -51,31 +63,30 @@ td {
 }
 
 #logo {
+    margin-left: 20px;
     max-width: 80%;
 }
 
-
 #images {
-    display: flex;
+    
+}
+
+#images img {
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    width: 30%;
 }
 
 @media screen and (max-width: 767px) {
-    .whitebox {
+    .whitebox_top {
         height: 400px;
-    }
-    .images {
-        flex-wrap: wrap;
-        
     }
 }
 
 @media screen and (min-width: 768px) {
-    .whitebox {
+    .whitebox_top {
         height: 250px;
-    }
-    .images {
-        padding-left: 20px;
-        padding-top: 20px;
-        width: 80%;
     }
 }
