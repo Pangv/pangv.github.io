@@ -2,105 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="css/farbtastic.js"></script>
-
-    <link rel="stylesheet" href="css/farbtastic.css" type="text/css" />
-
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Thermografie Gemmer</title>
-    <!--  -->
-
+    <meta charset="UTF-8">
+    <title>Showcase</title>
 </head>
+<style>
+    * {
+        font-family: 'Consolas', monospace;
+    }
+    
+    small {
+        color: gray;
+    }
+    
+    .showcases {
+        margin: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .section {
+        display: inline-block;
+        margin: 3%;
+        min-width: 200px;
+        min-height: 250px;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+    
+    .prev {
+        height: 190px;
+        border-bottom: 1px solid grey;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: linear-gradient(to bottom, #3766b2, #59c7a6);
+    }
+    
+    .prev a {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 55px;
+        padding: 15px;
+        border: 1px solid lightgrey;
+        border-radius: 8px;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+    }
+    
+    .prev a:hover {
+        background-color: lightgray;
+        border-color: gray;
+    }
+    
+    .description {
+        padding-left: 15px;
+        margin-bottom: 5px;
+    }
+</style>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="whitebox_top">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <img src="img/GemmerAusgabeOpt.svg" alt="logo" id="logo">
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <table>
-                        <tr>
-                            <td>Torsten Gemmer
-                                <br> Löwestraße 96
-                                <br> 12623 Berlin</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Tel: <a href="tel:03056493564">030 56 49 35 64</a>
-                                <br> Tax: <a href="tel:03056493565">030 56 49 35 65</a>
-                            </td>
-                            <td>E-Mail:
-                                <br>
-                                <a href="mailto:t.gemmer@lectec.de">t.gemmer@lectec.de</a></td>
-                        </tr>
-                        <tr>
-                            <td>Notdienstnummer mobil:
-                                <br> <a href="tel:01721318585">0172 131 85 85</a></td>
-                            <td>Internet:
-                                <br>
-                                <a href="www.lectec.de">www.lectec.de</a></td>
-                        </tr>
-                    </table>
-                </div>
-
+    <div class="showcases">
+        <div class="section">
+            <div class="prev">
+                <a href="mauklu/index.html">Ansehen</a>
             </div>
-        </div>
-        <div class="row">
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <div class="well well-sm">Thermografie</div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <div class="well well-sm">Leckageortung</div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <div class="well well-sm">Blower Door</div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <div class="well well-sm">Baudiagnostik</div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="whitebox_btm">
-                <div id="images">
-
-                    <img src="img/Thermografie.jpg" alt="">
-                    <img src="img/Thermografie2.jpg" alt="">
-                    <img src="img/Thermografie3.jpg" alt="">
-
-                </div>
+            <div class="description">
+                <h3>web <small>| Maurice Kluge</small></h3>
             </div>
         </div>
 
-
-       
+        <div class="section">
+            <div class="prev">
+                <a href="lecktec/index.html">Ansehen</a>
+            </div>
+            <div class="description">
+                <h3>web <small>| Gemmer</small></h3>
+            </div>
+        </div>
     </div>
-    <script type="text/javascript">
-        $(document).ready(function () {
 
-            $('#colorpicker').farbtastic('#color');
-
-        });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
-    <script>
-    </script>
 </body>
 
 </html>
