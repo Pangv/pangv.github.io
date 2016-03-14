@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>From Zero to Hero</title>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans|Lobster+Two' rel='stylesheet' type='text/css'>
+    <style>
+        * {
+            font-family: 'Droid Sans', sans-serif;
+        }
+        
+        h1, h2, h3, h4, strong {
+            font-family: 'Lobster Two', cursive;
+        }
+        
+        .right {
+            float: right;
+            width: 190px;
+            position: fixed;
+            margin-left: 410px;
+        }
+        
+        .left {
+            float: left;
+            width: 40%;
+        }
+        
+        textarea {
+            width: 400px;
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        .displayed {
+            display: block !important;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#zahlen").click(
+                function () {
+                    $("#zahlenspoiler").toggleClass("displayed", 1000);
+                });
+        });
+
+        $(function () {
+            $("#zeichen").click(
+                function () {
+                    $("#zeichenspoiler").toggleClass("displayed", 1000);
+                });
+        });
+
+        $(function () {
+            $("#wahrheit").click(
+                function () {
+                    $("#wahrheitsspoiler").toggleClass("displayed", 1000);
+                });
+        });
+
+        $(function () {
+            $("#zulassung").click(
+                function () {
+                    alert("Hier müssen wir etwas ergänzen :)")
+                        //$("#zahlenspoiler").toggleClass("displayed", 1000);
+                });
+        });
+
+        $(function () {
+            $("#surfen").click(
+                function () {
+                    alert("Hier müssen wir etwas ergänzen :)")
+                        //$("#zahlenspoiler").toggleClass("displayed", 1000);
+                });
+        });
+    </script>
+
+</head>
+
+<body>
+    <h1>Sarah from Zero to Hero</h1>
+
+
+    <div class="right">
+        <p>Notizen <i>KEIN SPEICHERN</i></p>
+        <textarea name="notizen" id="" cols="30" rows="50"></textarea>
+    </div>
+
+    <div class="left">
+
+
+        <h2>Grundlagen der Programmierung</h2>
+        <strong>Datentypen</strong>
+        <br>
+        <u>Zahlen?</u>
+        <div id="zahlenspoiler" class="hidden">
+            <ul>
+                <li>byte</li>
+                <li>short</li>
+                <li>int</li>
+                <li>long</li>
+            </ul>
+
+            <ul>
+                <li>float</li>
+                <li>double</li>
+            </ul>
+        </div>
+        <button id="zahlen">Spoiler ausklappen</button>
+        
+        
+        <br>
+        <u>Zeichen?</u>
+        <div id="zeichenspoiler" class="hidden">
+            <ul>
+                <li>char</li>
+                <li>String</li>
+            </ul>
+        </div>
+        <button id="zeichen">Spoiler ausklappen</button>
+        
+        
+        <br>
+        <u>Wahrheit?</u>
+        <div id="wahrheitsspoiler" class="hidden">
+            <ul>
+                <li>boolean</li>
+            </ul>
+        </div>
+        <button id="wahrheit">Spoiler ausklappen</button>
+
+
+
+
+        <h2>Die Zulassungstelle</h2>
+
+        <a href="pdf/Zulassungsstelle.pdf" download>Zulassungsstelle PDF</a>
+
+        <button id="zulassung">Spoiler anzeigen</button>
+
+
+        <h2>Der Weser Surf Verleih</h2>
+
+        <a href="pdf/WeserSurfVerleih.pdf">Weser Surf Verleih PDF</a>
+        <button id="surfen">Spoiler anzeigen</button>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
