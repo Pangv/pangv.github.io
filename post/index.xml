@@ -7,43 +7,232 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>&amp;copy; 2017</copyright>
-    <lastBuildDate>Sun, 19 Mar 2017 15:53:59 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Mar 2017 15:38:56 +0100</lastBuildDate>
     <atom:link href="https://pangv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>good to great</title>
-      <link>https://pangv.github.io/post/good-to-great/</link>
-      <pubDate>Sun, 19 Mar 2017 15:53:59 +0100</pubDate>
-      
-      <guid>https://pangv.github.io/post/good-to-great/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>warehouse13</title>
+      <title>Warehouse 13</title>
       <link>https://pangv.github.io/post/warehouse13/</link>
       <pubDate>Sun, 19 Mar 2017 15:38:56 +0100</pubDate>
       
       <guid>https://pangv.github.io/post/warehouse13/</guid>
       <description>
 
-&lt;p&gt;&lt;strong&gt;warehouse13 - database exploration in a nutshell&lt;/strong&gt;
-Derzeit arbeiten wir an einem kleinen Projekt zur Veranschaulichung
+&lt;p&gt;Derzeit arbeiten wir an einem kleinen Projekt zur Veranschaulichung
 der Arbeit mit Kunden an einem Datenbanksystem&lt;/p&gt;
 
-&lt;h1 id=&#34;ressourcen&#34;&gt;Ressourcen&lt;/h1&gt;
+&lt;h2 id=&#34;ressourcen&#34;&gt;Ressourcen&lt;/h2&gt;
 
-&lt;p&gt;[CREATE.sql]()&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://google.com&#34;&gt;CREATE.sql&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[DATA.sql]()&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://google.com&#34;&gt;DATA.sql&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;aufgabe-1&#34;&gt;Aufgabe 1&lt;/h1&gt;
+&lt;h2 id=&#34;aufgabe-1&#34;&gt;Aufgabe 1&lt;/h2&gt;
 
-&lt;p&gt;Lieferanten, die keinen Artikel geliefert haben:&lt;/p&gt;
+&lt;p&gt;Lieferanten, die keinen Artikel geliefert haben
+&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/content/post/w13_a1_result.png&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/content/post/w13_a1_statement.png&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;aufgabe-2&#34;&gt;Aufgabe 2&lt;/h2&gt;
+
+&lt;p&gt;Artikel die größer oder gleich 200€ sind
+&lt;img src=&#34;https://pangv.github.io/img/w13_a2_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-3&#34;&gt;Aufgabe 3&lt;/h2&gt;
+
+&lt;p&gt;Positionen deren Menge kleiner oder gleich zwei ist
+&lt;img src=&#34;https://pangv.github.io/img/w13_a3_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-4&#34;&gt;Aufgabe 4&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a4_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a4_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-5&#34;&gt;Aufgabe 5&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a5_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-6&#34;&gt;Aufgabe 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a6_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-7&#34;&gt;Aufgabe 7&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a7_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a7_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-8&#34;&gt;Aufgabe 8&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a8_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-9&#34;&gt;Aufgabe 9&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a9_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-10&#34;&gt;Aufgabe 10&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a10_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a10_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-11&#34;&gt;Aufgabe 11&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a11_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-12&#34;&gt;Aufgabe 12&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a12_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-13&#34;&gt;Aufgabe 13&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a13_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a13_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-14&#34;&gt;Aufgabe 14&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a14_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a14_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-15&#34;&gt;Aufgabe 15&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a15_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a15_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-16&#34;&gt;Aufgabe 16&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a16_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a16_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-17&#34;&gt;Aufgabe 17&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a17_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a17_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-18&#34;&gt;Aufgabe 18&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a18_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a18_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-19&#34;&gt;Aufgabe 19&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-20&#34;&gt;Aufgabe 20&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-21&#34;&gt;Aufgabe 21&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-22&#34;&gt;Aufgabe 22&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-23&#34;&gt;Aufgabe 23&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-24&#34;&gt;Aufgabe 24&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-25&#34;&gt;Aufgabe 25&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-26&#34;&gt;Aufgabe 26&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-27&#34;&gt;Aufgabe 27&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-28&#34;&gt;Aufgabe 28&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-29&#34;&gt;Aufgabe 29&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-30&#34;&gt;Aufgabe 30&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-31&#34;&gt;Aufgabe 31&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-32&#34;&gt;Aufgabe 32&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-33&#34;&gt;Aufgabe 33&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-34&#34;&gt;Aufgabe 34&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
