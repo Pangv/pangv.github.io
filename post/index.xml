@@ -16,8 +16,138 @@
       <pubDate>Sun, 23 Apr 2017 00:16:11 +0200</pubDate>
       
       <guid>https://pangv.github.io/post/warehouse15/</guid>
-      <description>&lt;p&gt;Die dritte Aufgabe zur Arbeit mit Datenbank umfasst die &amp;ldquo;Darstellung von Mengen mit JOINS&amp;rdquo; mittels SQL Syntax
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;Die vierte Aufgabe zur Arbeit mit Datenbank umfasst den &amp;ldquo;Verbund Tabellen mit Hilfe von JOINS&amp;rdquo; mittels SQL Syntax
+&lt;/p&gt;
+
+&lt;h1 id=&#34;ressourcen&#34;&gt;Ressourcen&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pangv.github.io/doc/create3.sql&#34;&gt;Create3.sql&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;inner-join&#34;&gt;INNER JOIN&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-1&#34;&gt;Aufgabe 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-2&#34;&gt;Aufgabe 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a2_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-3&#34;&gt;Aufgabe 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a3_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-4&#34;&gt;Aufgabe 4&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a4_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a4_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;left-outer-join&#34;&gt;LEFT OUTER JOIN&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-5&#34;&gt;Aufgabe 5&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a5_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-6&#34;&gt;Aufgabe 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a6_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-7&#34;&gt;Aufgabe 7&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a7_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a7_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-8&#34;&gt;Aufgabe 8&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a8_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;negativer-join&#34;&gt;NEGATIVER JOIN&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-9&#34;&gt;Aufgabe 9&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a9_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-10&#34;&gt;Aufgabe 10&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a10_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a10_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-11&#34;&gt;Aufgabe 11&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a11_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;right-outer-join&#34;&gt;RIGHT OUTER JOIN&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-12&#34;&gt;Aufgabe 12&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a12_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-13&#34;&gt;Aufgabe 13&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a13_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a13_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-14&#34;&gt;Aufgabe 14&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a14_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a14_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;full-outer-join&#34;&gt;FULL OUTER JOIN&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-15&#34;&gt;Aufgabe 15&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a15_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a15_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-16&#34;&gt;Aufgabe 16&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a16_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a16_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-17&#34;&gt;Aufgabe 17&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a17_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a17_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;cross-join&#34;&gt;CROSS JOIN&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-18&#34;&gt;Aufgabe 18&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a18_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a18_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-19&#34;&gt;Aufgabe 19&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a19_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a19_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
