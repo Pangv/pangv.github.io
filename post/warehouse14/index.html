@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="" name="keywords">
+<meta content="Warehouse 14 - pangv.github.io" property="og:title">
+<title>Warehouse 14 | pangv.github.io</title>
+<link rel="stylesheet" href="https://pangv.github.io/css/style.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="https://pangv.github.io"><h1 class="title is-4">pangv.github.io</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile">
+          
+          <a class="level-item" href="https://github.com/pangv">
+            <span class="icon">
+              <i class="fa fa-github"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="/index.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+          </a>
+          
+        </nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="subtitle is-6">April 3, 2017</h2>
+    <h1 class="title">Warehouse 14</h1>
+    
+    <div class="content">
+      <p>Die dritte Aufgabe zur Arbeit mit Datenbank umfasst die &ldquo;Darstellung von Mengen&rdquo; mittels SQL Syntax
+</p>
+
+<h1 id="ressourcen">Ressourcen</h1>
+
+<p><a href="/doc/aufgaben.sql">AUFGABEN.sql</a></p>
+
+<h1 id="vereinigung">Vereinigung</h1>
+
+<p>Der INTERSECT Befehl wird in MySQL nicht unterstützt, dieser lässt sich aber mit Hilfe der IN clause simulieren</p>
+
+<h2 id="aufgabe-1">Aufgabe 1</h2>
+
+<p><em>Kundennamen</em> und <em>Auftragspositions-IDs</em> der Auftragspositionen, bei denen die Positionsmenge größer 2 ist oder der Einzelpreisrabatt über 5% liegt oder der Positionswert über 200,00€ beträgt. Absteigend nach Auftragspositions-ID sortieren.</p>
+
+<ol>
+<li>Welche Attribute werden gebraucht?
+
+<ol>
+<li>Vorname</li>
+<li>Nachname</li>
+<li>Positionsnr</li>
+</ol></li>
+<li>Aus welchen Tabellen kommen die Attribute?
+
+<ol>
+<li>kunde</li>
+<li>autrag</li>
+<li>position</li>
+</ol></li>
+<li>Welche Filter wird verwendet?
+
+<ol>
+<li>Positionswert &gt; 200</li>
+<li>OR Einzelpreisrabatt &gt; 5</li>
+<li>OR Positionsmenge &gt; 2</li>
+</ol></li>
+</ol>
+
+<h2 id="aufgabe-2">Aufgabe 2</h2>
+
+<p><img src="/img/w14_a2_result.PNG" alt="This is the result" /></p>
+
+<p><img src="/img/w14_a2_statement.PNG" alt="This is the statement" /></p>
+
+<h2 id="aufgabe-3">Aufgabe 3</h2>
+
+<p><img src="/img/w14_a3_result.PNG" alt="This is the statement" /></p>
+
+<p><img src="/img/w14_a3_statement.PNG" alt="This is the statement" /></p>
+
+<h1 id="durchschnitt">Durchschnitt</h1>
+
+<h2 id="aufgabe-4">Aufgabe 4</h2>
+
+<p>Alle Artikelbezeichnungen der Artikel, deren Farbe schwarz ist und deren Preis über 100,00€ liegt. Absteigend nach Artikelbezeichnung sortiert.</p>
+
+<ol>
+<li>Welche Attribute werden gebraucht?
+
+<ol>
+<li>Artikelbezeichnung</li>
+<li>Farbe</li>
+<li>Preis</li>
+</ol></li>
+<li>Aus welchen Tabellen kommen die Attribute?
+
+<ol>
+<li>Artikel</li>
+</ol></li>
+<li>Welcher Filter wird verwendet?
+
+<ol>
+<li>Farbe = &lsquo;schwarz&rsquo; AND Preis &gt; 100</li>
+</ol></li>
+</ol>
+
+<h2 id="aufgabe-5">Aufgabe 5</h2>
+
+<p><img src="/img/w14_a5_result.PNG" alt="This is the statement" /></p>
+
+<p><img src="/img/w14_a5_statement.PNG" alt="This is the statement" /></p>
+
+<h2 id="aufgabe-6">Aufgabe 6</h2>
+
+<p><em>Dieses Statement liefert mit den akutellen Daten kein Ergebnis</em></p>
+
+<p><img src="/img/w14_a6_statement.PNG" alt="This is the statement" /></p>
+
+<h1 id="differenzmenge-und-komplement">Differenzmenge und Komplement</h1>
+
+<p>Der EXCEPT Befehl wird in MySQL nicht unterstützt, dieser lässt sich aber mit Hilfe der NOT IN clause simulieren</p>
+
+<h2 id="aufgabe-7">Aufgabe 7</h2>
+
+<p>Alle Attribute der Auftragspositionen, die einen Einzelpreisrabatt unter 10% haben und deren Positionsmenge nicht kleiner als 5 ist.</p>
+
+<ol>
+<li>Welche Attribute werden gebraucht?
+
+<ol>
+<li>alle</li>
+</ol></li>
+<li>Aus welchen Tabellen kommen die Attribute?
+
+<ol>
+<li>Position</li>
+</ol></li>
+<li>Welcher Filter wird verwendet?
+
+<ol>
+<li>Einzelpreisrabatt &lt; 10 AND NOT Positionsmenge &lt; 5</li>
+<li>oder mit NOT IN [liste]</li>
+</ol></li>
+</ol>
+
+<h2 id="aufgabe-8">Aufgabe 8</h2>
+
+<p><img src="/img/w14_a8_result.PNG" alt="This is the statement" /></p>
+
+<p><img src="/img/w14_a8_statement.PNG" alt="This is the statement" /></p>
+
+<h2 id="aufgabe-9">Aufgabe 9</h2>
+
+<p><img src="/img/w14_a9_result.PNG" alt="This is the statement" /></p>
+
+<p><img src="/img/w14_a9_statement.PNG" alt="This is the statement" /></p>
+
+<h1 id="symmetrische-differenz">Symmetrische Differenz</h1>
+
+<h2 id="aufgabe-10">Aufgabe 10</h2>
+
+<p>Artikelnummer, Artikelbezeichnung und Artikelpreis: Entweder mit der Artikelbezeichnung &ldquo;A&rdquo; bis &ldquo;R&rdquo; oder Artikelpreis zwischen 100,00€ und 200,00€. Aufsteigend nach Artikelbezeichnung sortiert.</p>
+
+<ol>
+<li>Welche Attribute werden gebraucht?
+
+<ol>
+<li>Artikelnummer</li>
+<li>Artikelbezeichnung</li>
+<li>Preis</li>
+</ol></li>
+<li>Aus welchen Tabellen kommen die Attribute?
+
+<ol>
+<li>Artikel</li>
+</ol></li>
+<li>Welcher Filter wird verwendet?
+
+<ol>
+<li>Artikelbezeichnung &lt; &lsquo;R&rsquo; XOR Preis BETWEEN 100 AND 200</li>
+</ol></li>
+</ol>
+
+<h2 id="aufgabe-11">Aufgabe 11</h2>
+
+<p><img src="/img/w14_a11_result.PNG" alt="This is the statement" /></p>
+
+<p><img src="/img/w14_a11_statement.PNG" alt="This is the statement" /></p>
+
+<h2 id="aufgabe-12">Aufgabe 12</h2>
+
+<p><img src="/img/w14_a12_result.PNG" alt="This is the statement" /></p>
+
+<p><img src="/img/w14_a12_statement.PNG" alt="This is the statement" /></p>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; 2017</p>
+  </div>
+</section>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js" integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/go.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/dockerfile.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+

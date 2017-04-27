@@ -7,8 +7,191 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>&amp;copy; 2017</copyright>
-    <lastBuildDate>Sun, 19 Mar 2017 15:38:56 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 23 Apr 2017 00:16:11 +0200</lastBuildDate>
     <atom:link href="https://pangv.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Warehouse 15</title>
+      <link>https://pangv.github.io/post/warehouse15/</link>
+      <pubDate>Sun, 23 Apr 2017 00:16:11 +0200</pubDate>
+      
+      <guid>https://pangv.github.io/post/warehouse15/</guid>
+      <description>&lt;p&gt;Die dritte Aufgabe zur Arbeit mit Datenbank umfasst die &amp;ldquo;Darstellung von Mengen mit JOINS&amp;rdquo; mittels SQL Syntax
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Warehouse 14</title>
+      <link>https://pangv.github.io/post/warehouse14/</link>
+      <pubDate>Mon, 03 Apr 2017 22:22:51 +0200</pubDate>
+      
+      <guid>https://pangv.github.io/post/warehouse14/</guid>
+      <description>&lt;p&gt;Die dritte Aufgabe zur Arbeit mit Datenbank umfasst die &amp;ldquo;Darstellung von Mengen&amp;rdquo; mittels SQL Syntax
+&lt;/p&gt;
+
+&lt;h1 id=&#34;ressourcen&#34;&gt;Ressourcen&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pangv.github.io/doc/aufgaben.sql&#34;&gt;AUFGABEN.sql&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;vereinigung&#34;&gt;Vereinigung&lt;/h1&gt;
+
+&lt;p&gt;Der INTERSECT Befehl wird in MySQL nicht unterstützt, dieser lässt sich aber mit Hilfe der IN clause simulieren&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-1&#34;&gt;Aufgabe 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Kundennamen&lt;/em&gt; und &lt;em&gt;Auftragspositions-IDs&lt;/em&gt; der Auftragspositionen, bei denen die Positionsmenge größer 2 ist oder der Einzelpreisrabatt über 5% liegt oder der Positionswert über 200,00€ beträgt. Absteigend nach Auftragspositions-ID sortieren.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Welche Attribute werden gebraucht?
+
+&lt;ol&gt;
+&lt;li&gt;Vorname&lt;/li&gt;
+&lt;li&gt;Nachname&lt;/li&gt;
+&lt;li&gt;Positionsnr&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Aus welchen Tabellen kommen die Attribute?
+
+&lt;ol&gt;
+&lt;li&gt;kunde&lt;/li&gt;
+&lt;li&gt;autrag&lt;/li&gt;
+&lt;li&gt;position&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Welche Filter wird verwendet?
+
+&lt;ol&gt;
+&lt;li&gt;Positionswert &amp;gt; 200&lt;/li&gt;
+&lt;li&gt;OR Einzelpreisrabatt &amp;gt; 5&lt;/li&gt;
+&lt;li&gt;OR Positionsmenge &amp;gt; 2&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;aufgabe-2&#34;&gt;Aufgabe 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a2_result.PNG&#34; alt=&#34;This is the result&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-3&#34;&gt;Aufgabe 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a3_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;durchschnitt&#34;&gt;Durchschnitt&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-4&#34;&gt;Aufgabe 4&lt;/h2&gt;
+
+&lt;p&gt;Alle Artikelbezeichnungen der Artikel, deren Farbe schwarz ist und deren Preis über 100,00€ liegt. Absteigend nach Artikelbezeichnung sortiert.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Welche Attribute werden gebraucht?
+
+&lt;ol&gt;
+&lt;li&gt;Artikelbezeichnung&lt;/li&gt;
+&lt;li&gt;Farbe&lt;/li&gt;
+&lt;li&gt;Preis&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Aus welchen Tabellen kommen die Attribute?
+
+&lt;ol&gt;
+&lt;li&gt;Artikel&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Welcher Filter wird verwendet?
+
+&lt;ol&gt;
+&lt;li&gt;Farbe = &amp;lsquo;schwarz&amp;rsquo; AND Preis &amp;gt; 100&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;aufgabe-5&#34;&gt;Aufgabe 5&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a5_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-6&#34;&gt;Aufgabe 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Dieses Statement liefert mit den akutellen Daten kein Ergebnis&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;differenzmenge-und-komplement&#34;&gt;Differenzmenge und Komplement&lt;/h1&gt;
+
+&lt;p&gt;Der EXCEPT Befehl wird in MySQL nicht unterstützt, dieser lässt sich aber mit Hilfe der NOT IN clause simulieren&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-7&#34;&gt;Aufgabe 7&lt;/h2&gt;
+
+&lt;p&gt;Alle Attribute der Auftragspositionen, die einen Einzelpreisrabatt unter 10% haben und deren Positionsmenge nicht kleiner als 5 ist.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Welche Attribute werden gebraucht?
+
+&lt;ol&gt;
+&lt;li&gt;alle&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Aus welchen Tabellen kommen die Attribute?
+
+&lt;ol&gt;
+&lt;li&gt;Position&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Welcher Filter wird verwendet?
+
+&lt;ol&gt;
+&lt;li&gt;Einzelpreisrabatt &amp;lt; 10 AND NOT Positionsmenge &amp;lt; 5&lt;/li&gt;
+&lt;li&gt;oder mit NOT IN [liste]&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;aufgabe-8&#34;&gt;Aufgabe 8&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a8_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-9&#34;&gt;Aufgabe 9&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a9_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;symmetrische-differenz&#34;&gt;Symmetrische Differenz&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-10&#34;&gt;Aufgabe 10&lt;/h2&gt;
+
+&lt;p&gt;Artikelnummer, Artikelbezeichnung und Artikelpreis: Entweder mit der Artikelbezeichnung &amp;ldquo;A&amp;rdquo; bis &amp;ldquo;R&amp;rdquo; oder Artikelpreis zwischen 100,00€ und 200,00€. Aufsteigend nach Artikelbezeichnung sortiert.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Welche Attribute werden gebraucht?
+
+&lt;ol&gt;
+&lt;li&gt;Artikelnummer&lt;/li&gt;
+&lt;li&gt;Artikelbezeichnung&lt;/li&gt;
+&lt;li&gt;Preis&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Aus welchen Tabellen kommen die Attribute?
+
+&lt;ol&gt;
+&lt;li&gt;Artikel&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Welcher Filter wird verwendet?
+
+&lt;ol&gt;
+&lt;li&gt;Artikelbezeichnung &amp;lt; &amp;lsquo;R&amp;rsquo; XOR Preis BETWEEN 100 AND 200&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;aufgabe-11&#34;&gt;Aufgabe 11&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a11_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-12&#34;&gt;Aufgabe 12&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a12_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Warehouse 13</title>
