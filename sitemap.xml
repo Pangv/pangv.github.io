@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pangv.github.io/post/warehouse16/</loc>
+    <lastmod>2017-05-07T12:18:31+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pangv.github.io/post/warehouse15/</loc>
     <lastmod>2017-04-23T00:16:11+02:00</lastmod>
   </url>
@@ -18,13 +23,13 @@
   
   <url>
     <loc>https://pangv.github.io/post/</loc>
-    <lastmod>2017-04-23T00:16:11+02:00</lastmod>
+    <lastmod>2017-05-07T12:18:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://pangv.github.io/</loc>
-    <lastmod>2017-04-23T00:16:11+02:00</lastmod>
+    <lastmod>2017-05-07T12:18:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   

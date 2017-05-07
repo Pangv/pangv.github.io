@@ -7,8 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>&amp;copy; 2017</copyright>
-    <lastBuildDate>Sun, 23 Apr 2017 00:16:11 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 May 2017 12:18:31 +0200</lastBuildDate>
     <atom:link href="https://pangv.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Warehouse 16</title>
+      <link>https://pangv.github.io/post/warehouse16/</link>
+      <pubDate>Sun, 07 May 2017 12:18:31 +0200</pubDate>
+      
+      <guid>https://pangv.github.io/post/warehouse16/</guid>
+      <description>&lt;p&gt;Die fünfte Aufgabe zur Arbeit mit Datenbanken umfasst die &amp;ldquo;Gruppenbildung und Aggregatfunktionen&amp;rdquo; mittels SQL Syntax
+&lt;/p&gt;
+
+&lt;h1 id=&#34;aggregatfunktion-sum&#34;&gt;Aggregatfunktion SUM()&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-1&#34;&gt;Aufgabe 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-2&#34;&gt;Aufgabe 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a2_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;aggregatfunktion-count&#34;&gt;Aggregatfunktion COUNT()&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-3&#34;&gt;Aufgabe 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a3_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-4&#34;&gt;Aufgabe 4&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a4_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a4_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-5&#34;&gt;Aufgabe 5&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a5_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-6&#34;&gt;Aufgabe 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a6_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;aggregatfunktion-avg&#34;&gt;Aggregatfunktion AVG()&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-7&#34;&gt;Aufgabe 7&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a7_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a7_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-8&#34;&gt;Aufgabe 8&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a8_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;aggregatfunktion-min-und-max&#34;&gt;Aggregatfunktion MIN() und MAX()&lt;/h1&gt;
+
+&lt;h2 id=&#34;aufgabe-9&#34;&gt;Aufgabe 9&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a9_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-10&#34;&gt;Aufgabe 10&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a10_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a10_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-11&#34;&gt;Aufgabe 11&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a11_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;aufgabe-12&#34;&gt;Aufgabe 12&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a12_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w16_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Warehouse 15</title>
@@ -16,138 +106,134 @@
       <pubDate>Sun, 23 Apr 2017 00:16:11 +0200</pubDate>
       
       <guid>https://pangv.github.io/post/warehouse15/</guid>
-      <description>&lt;p&gt;Die vierte Aufgabe zur Arbeit mit Datenbank umfasst den &amp;ldquo;Verbund Tabellen mit Hilfe von JOINS&amp;rdquo; mittels SQL Syntax
+      <description>&lt;p&gt;Die vierte Aufgabe zur Arbeit mit Datenbanken umfasst den &amp;ldquo;Verbund Tabellen mit Hilfe von JOINS&amp;rdquo; mittels SQL Syntax
 &lt;/p&gt;
-
-&lt;h1 id=&#34;ressourcen&#34;&gt;Ressourcen&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://pangv.github.io/doc/create3.sql&#34;&gt;Create3.sql&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;inner-join&#34;&gt;INNER JOIN&lt;/h1&gt;
 
 &lt;h2 id=&#34;aufgabe-1&#34;&gt;Aufgabe 1&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-2&#34;&gt;Aufgabe 2&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a2_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a2_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-3&#34;&gt;Aufgabe 3&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a3_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a3_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-4&#34;&gt;Aufgabe 4&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a4_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a4_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a4_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a4_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;left-outer-join&#34;&gt;LEFT OUTER JOIN&lt;/h1&gt;
 
 &lt;h2 id=&#34;aufgabe-5&#34;&gt;Aufgabe 5&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a5_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a5_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-6&#34;&gt;Aufgabe 6&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a6_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a6_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-7&#34;&gt;Aufgabe 7&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a7_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a7_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a7_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a7_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-8&#34;&gt;Aufgabe 8&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a8_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a8_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;negativer-join&#34;&gt;NEGATIVER JOIN&lt;/h1&gt;
 
 &lt;h2 id=&#34;aufgabe-9&#34;&gt;Aufgabe 9&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a9_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a9_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-10&#34;&gt;Aufgabe 10&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a10_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a10_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a10_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a10_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-11&#34;&gt;Aufgabe 11&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a11_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a11_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;right-outer-join&#34;&gt;RIGHT OUTER JOIN&lt;/h1&gt;
 
 &lt;h2 id=&#34;aufgabe-12&#34;&gt;Aufgabe 12&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a12_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Die Datenbank meines Kunden ist dahingehend optimiert, ein überregional aufgestelltes Unternehmen zu unterstützen.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Abteilungen sind daher nie einem Standort zugeordnet, sie können Standort-übergreifend existieren. (Einsatzort - Mitarbeiter - Abteilung)&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-13&#34;&gt;Aufgabe 13&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a13_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a13_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a13_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a13_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-14&#34;&gt;Aufgabe 14&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a14_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a14_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a14_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a14_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;full-outer-join&#34;&gt;FULL OUTER JOIN&lt;/h1&gt;
 
 &lt;h2 id=&#34;aufgabe-15&#34;&gt;Aufgabe 15&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a15_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a15_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a15_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a15_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-16&#34;&gt;Aufgabe 16&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a16_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a16_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a16_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a16_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-17&#34;&gt;Aufgabe 17&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a17_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a17_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a17_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a17_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;cross-join&#34;&gt;CROSS JOIN&lt;/h1&gt;
+&lt;h1 id=&#34;self-join&#34;&gt;SELF JOIN&lt;/h1&gt;
 
 &lt;h2 id=&#34;aufgabe-18&#34;&gt;Aufgabe 18&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a18_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a18_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a18_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a18_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-19&#34;&gt;Aufgabe 19&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a19_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a19_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w15_a19_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w15_a19_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -198,15 +284,15 @@
 
 &lt;h2 id=&#34;aufgabe-2&#34;&gt;Aufgabe 2&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a2_result.PNG&#34; alt=&#34;This is the result&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a2_result.PNG&#34; alt=&#34;This is the result&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-3&#34;&gt;Aufgabe 3&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a3_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a3_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;durchschnitt&#34;&gt;Durchschnitt&lt;/h1&gt;
 
@@ -236,15 +322,15 @@
 
 &lt;h2 id=&#34;aufgabe-5&#34;&gt;Aufgabe 5&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a5_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a5_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-6&#34;&gt;Aufgabe 6&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Dieses Statement liefert mit den akutellen Daten kein Ergebnis&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;differenzmenge-und-komplement&#34;&gt;Differenzmenge und Komplement&lt;/h1&gt;
 
@@ -275,15 +361,15 @@
 
 &lt;h2 id=&#34;aufgabe-8&#34;&gt;Aufgabe 8&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a8_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a8_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-9&#34;&gt;Aufgabe 9&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a9_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a9_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;symmetrische-differenz&#34;&gt;Symmetrische Differenz&lt;/h1&gt;
 
@@ -313,15 +399,15 @@
 
 &lt;h2 id=&#34;aufgabe-11&#34;&gt;Aufgabe 11&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a11_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a11_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-12&#34;&gt;Aufgabe 12&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a12_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a12_result.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w14_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w14_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -346,277 +432,277 @@ der Arbeit mit Kunden an einem Datenbanksystem
 
 &lt;p&gt;Lieferanten, die keinen Artikel geliefert haben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a1_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a1_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-2&#34;&gt;Aufgabe 2&lt;/h2&gt;
 
 &lt;p&gt;Artikel die größer oder gleich 200€ sind&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a2_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a2_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a2_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-3&#34;&gt;Aufgabe 3&lt;/h2&gt;
 
 &lt;p&gt;Positionen deren Menge kleiner oder gleich zwei ist&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a3_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a3_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a3_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-4&#34;&gt;Aufgabe 4&lt;/h2&gt;
 
 &lt;p&gt;Positionen bei denen der Einzelpreisrabatt NULL ist,
 absteigend nach Positionsmenge sortiert&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a4_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a4_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a4_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a4_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-5&#34;&gt;Aufgabe 5&lt;/h2&gt;
 
 &lt;p&gt;Kunden die ein &amp;lsquo;ei&amp;rsquo; in ihrem Namen haben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a5_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a5_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a5_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-6&#34;&gt;Aufgabe 6&lt;/h2&gt;
 
 &lt;p&gt;Kunden die in München oder Erlangen leben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a6_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a6_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a6_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-7&#34;&gt;Aufgabe 7&lt;/h2&gt;
 
 &lt;p&gt;Aufträge die zwischen dem 01.09.2016 und dem 31.12.2016&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a7_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a7_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a7_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a7_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-8&#34;&gt;Aufgabe 8&lt;/h2&gt;
 
 &lt;p&gt;Artikel die mindestens 40kg wieger&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a8_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a8_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a8_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-9&#34;&gt;Aufgabe 9&lt;/h2&gt;
 
 &lt;p&gt;Kunden mit einer Kundengruppe&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a9_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a9_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a9_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-10&#34;&gt;Aufgabe 10&lt;/h2&gt;
 
 &lt;p&gt;Lieferantennamen die mit einem &amp;rsquo;M&amp;rsquo; beginnen&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a10_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a10_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a10_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a10_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-11&#34;&gt;Aufgabe 11&lt;/h2&gt;
 
 &lt;p&gt;Standorte von Warenhäusern und dadurch Abteilungen bei den Mitarbeiter beschäftigt sind&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a11_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a11_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a11_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-12&#34;&gt;Aufgabe 12&lt;/h2&gt;
 
 &lt;p&gt;Kunden deren Name kleiner oder gleich &amp;lsquo;L&amp;rsquo; ist&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a12_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a12_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a12_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-13&#34;&gt;Aufgabe 13&lt;/h2&gt;
 
 &lt;p&gt;Artikel deren Bezeichnung irgendwo ein &amp;lsquo;an&amp;rsquo; enhält&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a13_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a13_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a13_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a13_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-14&#34;&gt;Aufgabe 14&lt;/h2&gt;
 
 &lt;p&gt;Lieferantennamen die größer oder gleich &amp;lsquo;H&amp;rsquo; sind&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a14_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a14_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a14_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a14_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-15&#34;&gt;Aufgabe 15&lt;/h2&gt;
 
 &lt;p&gt;Kunden deren Adresse ein &amp;lsquo;an&amp;rsquo; enhält&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a15_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a15_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a15_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a15_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-16&#34;&gt;Aufgabe 16&lt;/h2&gt;
 
 &lt;p&gt;Mitarbeiter die keinen Auftrag haben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a16_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a16_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a16_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a16_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-17&#34;&gt;Aufgabe 17&lt;/h2&gt;
 
 &lt;p&gt;Kunden die irgendwo zwischen PLZ 1000 und 80500 leben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a17_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a17_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a17_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a17_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-18&#34;&gt;Aufgabe 18&lt;/h2&gt;
 
 &lt;p&gt;Alle Aufträge die kleiner oder gleich 2 sind&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a18_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a18_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a18_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a18_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-19&#34;&gt;Aufgabe 19&lt;/h2&gt;
 
 &lt;p&gt;Aufträge die keinem Mitarbeiter zugeordnet sind&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a19_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a19_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a19_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a19_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-20&#34;&gt;Aufgabe 20&lt;/h2&gt;
 
 &lt;p&gt;Artikel die einen Preis zwischen 100 und 200 Euro haben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a20_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a20_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a20_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a20_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-21&#34;&gt;Aufgabe 21&lt;/h2&gt;
 
 &lt;p&gt;Artikel die ein &amp;lsquo;x&amp;rsquo; in der Größe enthalten&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a21_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a21_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a21_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a21_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-22&#34;&gt;Aufgabe 22&lt;/h2&gt;
 
 &lt;p&gt;Artikel deren Bezeichnung mit einem &amp;lsquo;E&amp;rsquo; beginnt, dann ein beliebiges
 weiteres Zeichen folgt &amp;lsquo;_&amp;rsquo; und dann weitere beliebige Zeichen &amp;lsquo;%&amp;rsquo; hat&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a22_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a22_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a22_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a22_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-23&#34;&gt;Aufgabe 23&lt;/h2&gt;
 
 &lt;p&gt;Artikel deren Bezeichnung (lexikalisch) größer als &amp;lsquo;R&amp;rsquo; ist&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a23_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a23_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a23_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a23_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-24&#34;&gt;Aufgabe 24&lt;/h2&gt;
 
 &lt;p&gt;Aufträge die vor dem 09.10.2016 erfasst wurden&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a24_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a24_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a24_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a24_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-25&#34;&gt;Aufgabe 25&lt;/h2&gt;
 
 &lt;p&gt;Alle Artikelbezeichnungen außer die aus der Artikelgruppe &amp;lsquo;Maus&amp;rsquo;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a25_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a25_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a25_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a25_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-26&#34;&gt;Aufgabe 26&lt;/h2&gt;
 
 &lt;p&gt;Aufträge die den Status &amp;lsquo;offen&amp;rsquo; haben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a26_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a26_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a26_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a26_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-27&#34;&gt;Aufgabe 27&lt;/h2&gt;
 
 &lt;p&gt;Farben der Artikel außer schwarz&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a27_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a27_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a27_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a27_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-28&#34;&gt;Aufgabe 28&lt;/h2&gt;
 
 &lt;p&gt;Alle Kunden die eine Nr. kleiner 3 haben&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a28_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a28_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a28_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a28_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-29&#34;&gt;Aufgabe 29&lt;/h2&gt;
 
 &lt;p&gt;Positionen deren Wert größer 180€ ist, absteigend nach Positionswert sortiert.
 &lt;br&gt;Nur eindeutige Positionen sind zulässig&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a29_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a29_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a29_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a29_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-30&#34;&gt;Aufgabe 30&lt;/h2&gt;
 
 &lt;p&gt;Artikelnummer, Farbe und Bezeichnung aller schwarzen Artikel&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a30_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a30_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a30_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a30_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-31&#34;&gt;Aufgabe 31&lt;/h2&gt;
 
 &lt;p&gt;Alle männlichen Kunden&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a31_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a31_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a31_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a31_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-32&#34;&gt;Aufgabe 32&lt;/h2&gt;
 
 &lt;p&gt;Nur die offenen Aufträge&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a32_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a32_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a32_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a32_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-33&#34;&gt;Aufgabe 33&lt;/h2&gt;
 
 &lt;p&gt;Alle Artikel die günstiger als 150€ sind.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a33_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a33_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a33_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a33_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;aufgabe-34&#34;&gt;Aufgabe 34&lt;/h2&gt;
 
 &lt;p&gt;Postleitzahlen die (lexikalisch) größer als 80500 sind.&lt;br&gt;
 Wenn es dazu einen Kundenwohnort gibt soll auch die Kundennummer ausgegeben werden&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a34_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a34_result.PNG&#34; alt=&#34;This is the result &#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/w13_a34_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://pangv.github.io/img/warehouses/w13_a34_statement.PNG&#34; alt=&#34;This is the statement&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
