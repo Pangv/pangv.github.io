@@ -13,11 +13,66 @@
       padding: 0;
       margin: 0;
 
-      background: #43C6AC;
-      background: -webkit-linear-gradient(to bottom, #F8FFAE, #43C6AC) no-repeat;
-      background: linear-gradient(to bottom, #F8FFAE, #43C6AC) no-repeat;
+      background: linear-gradient(270deg, #43c6ac, #f8ffae);
+      background-size: 400% 400%;
 
-      font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+      -webkit-animation: AnimationName 30s ease infinite;
+      -moz-animation: AnimationName 30s ease infinite;
+      -o-animation: AnimationName 30s ease infinite;
+      animation: AnimationName 30s ease infinite;
+
+      font-family: 'Segoe UI',
+      'Roboto',
+      'Helvetica Neue',
+      sans-serif;
+    }
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0% 50%
+      }
+    }
+
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0% 50%
+      }
+    }
+
+    @-o-keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0% 50%
+      }
+    }
+
+    @keyframes AnimationName {
+      0% {
+        background-position: 0% 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0% 50%
+      }
     }
 
     h1 {
