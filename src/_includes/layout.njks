@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sopaetzel - {{title}} </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/global.css">
+</head>
+<body class="m-1">
+{% include "partials/_navigation.html" %}
+
+<main class="m-1">
+{{content}}
+</main>
+
+</body>
+</html>
