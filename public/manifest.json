@@ -1,0 +1,9 @@
+{
+  "name": "sopaetzel",
+  "short_name": "sopaetzel",
+  "theme_color": "#0f2027",
+  "background_color": "#0f2027",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
