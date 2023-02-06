@@ -1,23 +1,32 @@
 {
-  "name": "ideaprojects",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "pangv.github.io",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "tailwind:process": "npx postcss src/assets/css/global.css --o src/_includes/assets/css/global.css --watch",
-    "start": "concurrently \"npm run tailwind:process\" \"npm run serve\"",
-    "serve": "npx eleventy --serve"
+    "dev": "vite",
+    "host": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "@primer/octicons-react": "^17.10.2",
+    "octokit": "^2.0.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1"
+  },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "autoprefixer": "^10.4.8",
-    "concurrently": "^7.3.0",
-    "postcss": "^8.4.16",
-    "postcss-cli": "^10.0.0",
-    "tailwindcss": "^3.1.8"
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "prettier": "^2.8.2",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
   }
 }
