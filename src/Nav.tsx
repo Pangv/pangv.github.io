@@ -12,30 +12,6 @@ export function Nav() {
             @sopaetzel
           </Link>
         </li>
-        {/*<li>*/}
-        {/*  <Link*/}
-        {/*    className="rounded-r-full border border-slate-100 border-opacity-5 bg-slate-200 bg-opacity-5 p-3 text-white"*/}
-        {/*    to="projects"*/}
-        {/*  >*/}
-        {/*    Side Projects*/}
-        {/*  </Link>*/}
-        {/*</li>*/}
-        {/*<li>*/}
-        {/*  <Link*/}
-        {/*    className="rounded-full bg-slate-200 bg-opacity-5 p-3 text-white"*/}
-        {/*    to="art"*/}
-        {/*  >*/}
-        {/*    Artsy Stuff*/}
-        {/*  </Link>*/}
-        {/*</li>*/}
-        {/*<li>*/}
-        {/*  <Link*/}
-        {/*    className="rounded-full bg-slate-200 bg-opacity-5 p-3 text-white"*/}
-        {/*    to="about"*/}
-        {/*  >*/}
-        {/*    About*/}
-        {/*  </Link>*/}
-        {/*</li>*/}
       </ul>
     </nav>
   );
